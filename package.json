@@ -1,0 +1,8 @@
+{
+  "name": "redacaoup-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AntDavidLima/redacaoup-backend.git",
+  "author": "David Lima <DavidLima@alu.ufc.br>",
+  "license": "MIT"
+}
