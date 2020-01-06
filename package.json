@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "git@github.com:AntDavidLima/redacaoup-backend.git",
   "author": "David Lima <DavidLima@alu.ufc.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
 }
