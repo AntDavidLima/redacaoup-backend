@@ -14,6 +14,7 @@ Student.init(connection);
 Theme.init(connection);
 Essay.init(connection);
 
+School.associate(connection.models);
 Student.associate(connection.models);
 Theme.associate(connection.models);
 Essay.associate(connection.models);

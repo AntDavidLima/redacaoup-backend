@@ -13,6 +13,10 @@ class School extends Model {
       sequelize,
     });
   }
+
+  static associate(models) {
+    this.hasMany(models.Student, { foreignKey: 'school_id', as: 'students' });
+  }
 }
 
 module.exports = School;
