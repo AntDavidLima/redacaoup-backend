@@ -16,6 +16,7 @@ class School extends Model {
 
   static associate(models) {
     this.hasMany(models.Student, { foreignKey: 'school_id', as: 'students' });
+    this.hasMany(models.Theme, { foreignKey: 'school_id', as: 'themes' });
   }
 }
 
