@@ -5,6 +5,7 @@ class Essay extends Model {
     super.init({
       text: DataTypes.TEXT,
       note: DataTypes.TEXT,
+      score: DataTypes.INTEGER,
     }, {
       sequelize,
     });
@@ -14,6 +15,7 @@ class Essay extends Model {
     this.belongsTo(models.Theme, { foreignKey: 'theme_id', as: 'theme' });
     this.belongsTo(models.Student, { foreignKey: 'writer_id', as: 'writer' });
     this.belongsTo(models.Student, { foreignKey: 'appreiser_id', as: 'appreiser' });
+    this.belongsTo(models.School, { foreignKey: 'school_id', as: 'school' });
   }
 }
 

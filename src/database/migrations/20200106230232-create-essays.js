@@ -50,6 +50,16 @@ module.exports = {
       onUpdate: 'CASCADE',
       onDelete: 'CASCADE',
     },
+
+    school_id: {
+      type: Sequelize.INTEGER,
+      references: {
+        model: 'schools',
+        key: 'id',
+      },
+      onUpdate: 'CASCADE',
+      onDelete: 'CASCADE',
+    },
   }),
 
   down: (queryInterface) => queryInterface.dropTable('themes'),

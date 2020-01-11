@@ -28,6 +28,9 @@ routes.get('/themes/:theme_id', ThemeController.show);
 routes.delete('/themes/:theme_id', ThemeController.destroy);
 routes.put('/themes/:theme_id', ThemeController.update);
 
+// Essays route
 routes.post('/students/:student_id/themes/:theme_id/essays', EssayController.store);
+routes.get('/students/:student_id/essays', EssayController.index);
+routes.get('/essays/:essay_id', EssayController.show);
 
 module.exports = routes;
