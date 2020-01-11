@@ -7,6 +7,7 @@ const StudentController = require('./controllers/StudentController');
 const ThemeController = require('./controllers/ThemeController');
 const EssayController = require('./controllers/EssayController');
 const AppreiserController = require('./controllers/AppreiserController');
+const EvaluationController = require('./controllers/EvaluationController');
 
 // Schools routes
 routes.post('/schools', SchoolController.store);
@@ -37,5 +38,8 @@ routes.get('/essays/:essay_id', EssayController.show);
 // Appreisers routes
 routes.post('/students/:student_id/essays/:essay_id/appreisers', AppreiserController.store);
 routes.get('/students/:student_id/appreisers', AppreiserController.index);
+
+// Evaluations routes
+routes.post('/essays/:essay_id/evaluations', EvaluationController.store);
 
 module.exports = routes;

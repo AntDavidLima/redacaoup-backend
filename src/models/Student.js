@@ -7,6 +7,7 @@ class Student extends Model {
       email: DataTypes.STRING,
       password: DataTypes.STRING,
       avatar: DataTypes.STRING,
+      score: DataTypes.INTEGER,
     }, {
       sequelize,
     });
