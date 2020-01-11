@@ -6,6 +6,7 @@ const SchoolController = require('./controllers/SchoolController');
 const StudentController = require('./controllers/StudentController');
 const ThemeController = require('./controllers/ThemeController');
 const EssayController = require('./controllers/EssayController');
+const AppreiserController = require('./controllers/AppreiserController');
 
 // Schools routes
 routes.post('/schools', SchoolController.store);
@@ -28,9 +29,13 @@ routes.get('/themes/:theme_id', ThemeController.show);
 routes.delete('/themes/:theme_id', ThemeController.destroy);
 routes.put('/themes/:theme_id', ThemeController.update);
 
-// Essays route
+// Essays routes
 routes.post('/students/:student_id/themes/:theme_id/essays', EssayController.store);
 routes.get('/students/:student_id/essays', EssayController.index);
 routes.get('/essays/:essay_id', EssayController.show);
+
+// Appreisers routes
+routes.post('/students/:student_id/essays/:essay_id/appreisers', AppreiserController.store);
+routes.get('/students/:student_id/appreisers', AppreiserController.index);
 
 module.exports = routes;
