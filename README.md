@@ -8,15 +8,15 @@
 </h2>
 
 <ul>
-  <li><a href="#memo-license">License</a></li>
   <li><a href="#wrench-technologies">Technologies</a></li>
+  <li><a href="#memo-license">License</a></li>
   <li><a href="#floppydisk-database-structure">Database Structure</a></li>
   <li><a href="#runner-running-locally">Running Locally</a></li>
 </ul>
 
 ## :wrench: Technologies
 
-This project was developed at the [RocketSeat Starter Course](https://skylab.rocketseat.com.br/journey/starter) with the following technologies:
+This project was developed with the following technologies:
 
 - [Yarn](https://yarnpkg.com/)
 - [Sequelize](https://sequelize.org/)
@@ -59,7 +59,7 @@ Now just run:
 yarn dev
 ```
 
-The server will be running on localhost: 3333
+The server will be running on localhost:3333
 
 <br/>
 
