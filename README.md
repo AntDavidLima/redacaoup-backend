@@ -10,7 +10,7 @@
 <ul>
   <li><a href="#wrench-technologies">Technologies</a></li>
   <li><a href="#memo-license">License</a></li>
-  <li><a href="#floppydisk-database-structure">Database Structure</a></li>
+  <li><a href="#floppy_disk-database-structure">Database Structure</a></li>
   <li><a href="#runner-running-locally">Running Locally</a></li>
 </ul>
 
