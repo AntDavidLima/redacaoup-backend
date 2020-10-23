@@ -14,7 +14,7 @@
   <li><a href="#runner-running-locally">Running Locally</a></li>
 </ul>
 
-## :wrench: Technologies
+## :wrench: Technologies 
 
 This project was developed with the following technologies:
 
