@@ -29,7 +29,7 @@ This project was developed with the following technologies:
 - [PostgreSQL](https://www.postgresql.org/)
 - [Docker](https://www.docker.com/)
 
-## :memo: License
+## :memo: License 
 
 This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
 
